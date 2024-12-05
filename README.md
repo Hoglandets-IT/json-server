@@ -1,10 +1,11 @@
 # JSON Server 
-This is a fork of [typicode/json-server](https://github.com/typicode/json-server) version 0.17.4 prior to the license change from MIT to "Fair Source License".
+This is a fork of [typicode/json-server](https://github.com/typicode/json-server) version 0.17.4 prior to the license change from the MIT license.
 
-Get a full fake REST API with __zero coding__ in __less than 30 seconds__ (seriously)
+In addition it packages the application as a docker container that takes a `JSON_DATA` environment variable as the input json content.
 
-Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
+The docker container can be run like this: `docker run -e JSON_DATA="{\"users\": []}" -p 3000:3000 ghcr.io/hoglandets-it/json-server`. Making setting up a test environment for rest clients very easy.
 
+Original readme follows below.
 ## Table of contents
 
 <!-- toc -->
