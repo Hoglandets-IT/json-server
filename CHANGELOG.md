@@ -1,6 +1,7 @@
 # Change Log
 
-Changes for 0.15.1+ can now be found in https://github.com/typicode/json-server/releases
+## 0.17.5 - 2024-12-05
+* Added docker image build published to ghcr.io/hoglandets-it/json-server, see the readme for how to run it.
 
 ## 0.15.0 - 2019-05-21
 

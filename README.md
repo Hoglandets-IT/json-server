@@ -3,7 +3,7 @@ This is a fork of [typicode/json-server](https://github.com/typicode/json-server
 
 In addition it packages the application as a docker container that takes a `JSON_DATA` environment variable as the input json content.
 
-The docker container can be run like this: `docker run -e JSON_DATA="{\"users\": []}" -p 3000:3000 <insert-name-later>`. Making setting up a test environment for rest clients very easy.
+The docker container can be run like this: `docker run -e JSON_DATA="{\"users\": []}" -p 3000:3000 ghcr.io/hoglandets-it/json-server`. Making setting up a test environment for rest clients very easy.
 
 Original readme follows below.
 ## Table of contents
