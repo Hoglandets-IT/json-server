@@ -28,5 +28,5 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghcs.io/hoglandets-it/json-server:latest
+        tags: ghcr.io/hoglandets-it/json-server:latest
 
